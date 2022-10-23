@@ -1,0 +1,12 @@
+[0m[[0m[31merror[0m] [0m[0m/home/hans/Coding/Scala/PrintStation/src/main/scala/top/criwits/print/frame/InfoCheck.scala:15:192: overloaded method * with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Double)Double <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Float)Double <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Long)Double <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Int)Double <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Char)Double <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Short)Double <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Byte)Double[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (AnyVal)[0m
+[0m[[0m[31merror[0m] [0m[0m        |   计费：0.2 * ${if (doc.duplex) {doc.getNumberOfPages() / 2 + {if (doc.getNumberOfPages() % 2 == 0) { 0 } else { 1 }}} else {doc.getNumberOfPages()}} * ${doc.copies} = ${0.2*doc.copies*{if (doc.duplex) {doc.getNumberOfPages() / 2 + {if (doc.getNumberOfPages() % 2 == 0) { 0 } else { 1 }}}}}[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
